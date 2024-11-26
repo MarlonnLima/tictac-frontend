@@ -1,0 +1,28 @@
+@use "../../../styles.scss";
+$header-height: 100px;
+$title-color: #FFF;
+
+header {
+    background-color: styles.$primary-color;
+    height: $header-height;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+        color: $title-color;
+        margin-left: 20px;
+    }
+
+    div {
+        gap: 20px;
+        display: flex;
+    }
+
+    input {
+        width: 400px;
+        height: 36px;
+        padding: 0px 20px;
+    }
+
+}
