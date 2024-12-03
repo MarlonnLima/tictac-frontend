@@ -15,6 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatFormField, MatLabel } from '@angular/material/form-field';
 import { MatInput } from '@angular/material/input';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MatInput } from '@angular/material/input';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,

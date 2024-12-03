@@ -1,0 +1,47 @@
+.card {
+    max-width: 200px;
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 0px 5px;
+    position: relative;
+
+    img {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    p {
+        font-weight: bold;
+        color: #535353;
+    }
+
+    small {
+        text-decoration: line-through;
+        color: #535353;
+
+    }
+
+    button {
+        outline: 0px;
+        border: 0px;
+        padding: 10px;
+        width: 95%;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background-color: rgba(235, 235, 18, 0.74);
+        color: #000;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        opacity: 0.75;
+        cursor: pointer;
+    }
+
+}
